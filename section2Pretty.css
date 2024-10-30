@@ -1,0 +1,106 @@
+.overlay{
+    pointer-events: none;
+    background-image: url('static.gif');
+    background-size: cover;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 7%;
+}
+
+
+
+body{
+    background-image: url('bkg.png');
+    background-size: cover;
+    pointer-events: auto;
+}
+
+
+@font-face{
+    font-family: 'dataControl';
+    src: url('data-control/data-latin.ttf');
+}
+
+
+@font-face{
+    font-family: 'linearBeam';
+    src: url('linear_beam/Linebeam.ttf');
+}
+
+
+@font-face{
+    font-family: 'vcr';
+    src: url('vcr-osd-mono/VCR_OSD_MONO.ttf');
+}
+
+
+.bigDiv{
+    background-color: #4e443a;
+    border: 7px solid #1d1711;
+    width: 50%;
+    height:max-content;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: auto;/*allows stuff underneath to be clickable*/
+}
+
+.pDiv, .header, .menuDivs, #REDACTEDDIV, #resourceImgDiv, #aboutImg, #fileImg, #finalDiv, a:active, a:link, a:visited, a:hover{
+    color: #eae0d5;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.pDiv, .menuDivs, a:active, a:link, a:visited, a:hover{
+    font-family: 'vcr';
+    font-size: 30px;
+}
+
+.header{
+    font-family: 'linearBeam';
+    font-size: 40px;
+}
+
+#bookCipherKey{
+    color: white;
+}
+
+
+#invisible{
+    color: #4e443a;
+    text-shadow: none;
+}
+
+hr{
+    border: 4px solid #eae0d5;
+    margin: 15px;
+}
+
+
+button{
+    background-color: #eae0d5;
+    border: 2px solid #bd9f7f;
+    color: #4e443a;
+    text-shadow: .5px .5px black;
+    padding: 15px;
+    font-family:'dataControl';
+
+}
+
+
+#cAndTButton, #CaesarButton, #BinaryButton{
+    display: inline-block;
+}
+
+#welcomeButton, #continueButton{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:active, a:link, a:visited, a:hover{
+    text-decoration: none;
+}
